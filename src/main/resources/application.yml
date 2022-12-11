@@ -1,0 +1,21 @@
+spring:
+  mail:
+    host: smtp.yandex.ru
+    username: valera.kudryavtsev.nsk@yandex.ru
+    password: "bqiztjfisyvynodu" # специальный пароль для приложения (см. Яндекс Account)
+    port: 465
+    protocol: smtps
+    test-connection: true # проверка подключения при старте приложения
+  get-mail:
+    host: imap.yandex.ru
+    username: valera.kudryavtsev.nsk@yandex.ru
+    password: "bqiztjfisyvynodu"
+    port: 993
+    protocol: imaps
+  jpa:
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:mysql://localhost:3306/kotlin_mail
+    username: root
+    password: root
