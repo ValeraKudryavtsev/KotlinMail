@@ -16,6 +16,6 @@ spring:
     hibernate:
       ddl-auto: update
   datasource:
-    url: jdbc:mysql://localhost:3306/kotlin_mail
+    url: jdbc:mysql://mailmysqldb:3306/kotlin_mail
     username: root
     password: root

@@ -1,6 +1,5 @@
 package com.project.email.Domain
 
-import java.util.*
 import javax.persistence.*
 
 @Entity
